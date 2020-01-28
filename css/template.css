@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0; 
+}
+
+.jloo{
+    color:rgb(79, 100, 104);
+    margin: 5px;
+    font-size: 40px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #0000;
+    margin-left: 20px;
+}
+
+.cabeca{
+    z-index: 999;
+    display: flex
+    
+}
+
+
+body{
+    background-color: lightcyan;
+}
+
+.lr , .logged_bar{
+    display: flex;
+    position:absolute; 
+    right: 0px;
+}
+
+.lr li{
+    margin: 20px;
+}
+
+.logged_bar img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.logged_bar li{
+    margin: 20px;
+}
+
+.olho{
+    height: 50px;
+    width: 70px ;
+    margin: 10px;
+    filter: blur(0px);
+
+}
+
+header{
+    background-color: cyan;
+    width: 100%;
+}
+
+.barra{
+    height: 10px;
+    background-color: rgb(79, 100, 104);
+    border-top:solid #000 2px;
+    border-bottom:solid #000 2px;
+}
+.rodape{
+    z-index: 999;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 70px;
+    width: 100%;
+    background-color: cyan;
+}

@@ -1,0 +1,14 @@
+.conteudo img{
+    border: solid black 2px;
+    margin: 50px;
+    padding: 10px;
+    background: #ccc;
+}
+
+.abaixo{
+    margin-left: 50px;
+}
+
+.abaixo div{
+    display: flex;
+}
